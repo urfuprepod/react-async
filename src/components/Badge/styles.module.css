@@ -1,0 +1,17 @@
+.badge {
+    background: rgba(114,128,142,.15);
+    color: #72808e;
+    font-size: .9rem;
+    height: 24px;
+    padding: 0.4rem 0.6rem;
+    letter-spacing: .02rem;
+
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}

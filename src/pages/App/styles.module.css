@@ -1,0 +1,18 @@
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-block: 20px;
+    height: 100%;
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    flex: 1 1 auto;
+}
+
+.post__header {
+    font-size: 2.5rem;
+    text-align: center;
+}
