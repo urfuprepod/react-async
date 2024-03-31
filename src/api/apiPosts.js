@@ -1,13 +1,17 @@
-export const getNews = async ({ limit = 20, skip = 0 }) => {
+import axios from "axios";
+
+const BASE_URL = 'https://dummyjson.com/'
+
+export const getPosts = async ({ limit = 20, skip = 0 }) => {
     try {
-        const response = await axios.get(`${BASE_URL}search`, {
+        const response = await axios.get(`${BASE_URL}todos`, {
             params: {
                 limit,
                 skip,
             },
         });
-        return response.data;
+        return response.data.todos;
     } catch (error) {
-        console.log(error);
+        return 'Ошибка получения постов';
     }
 };

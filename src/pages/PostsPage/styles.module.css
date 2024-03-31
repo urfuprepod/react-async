@@ -3,13 +3,7 @@
     margin: 0 auto;
     padding-block: 20px;
     height: 100%;
-}
-
-.post-list {
-    display: flex;
-    flex-direction: column;
-    row-gap: 15px;
-    flex: 1 1 auto;
+    padding: 20px;
 }
 
 .post__header {

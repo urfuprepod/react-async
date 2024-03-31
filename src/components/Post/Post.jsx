@@ -8,7 +8,7 @@ const Post = ({ post }) => {
     return (
         <div className={styles["post"]}>
             <div className={styles["post-header"]}>
-                <h3 className={styles["post__title"]}>{{ todo }}</h3>
+                <h3 className={styles["post__title"]}>{ todo }</h3>
                 <Badge>{id}</Badge>
             </div>
             <div className={styles["post-body"]}>
